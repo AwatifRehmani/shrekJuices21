@@ -1,0 +1,476 @@
+*{
+  scroll-behavior: smooth;
+  font-family: 'Balsamiq Sans', cursive ;
+  font-family: 'Patua One', cursive;
+}
+body{
+  padding: 0 auto;
+  margin: 0 auto;
+  background-color: #F7F6F6 !important;
+}
+
+.clear{
+    clear: both;
+}
+
+.navbar-brand img{
+    width: 40%;
+  margin-left: 20%;
+  
+ 
+}
+.navbar{
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(5,41,0,1) 50%);
+
+}
+.navbar-brand{
+  font-family: 'Chewy', cursive;
+  font-size: 30px !important;
+  margin-right: 37% !important;
+  color: orange!important;
+}
+.nav-link{
+    color: white !important;
+    float: left!important;
+   font-size: 16.5px!important;
+   padding-left:10px!important;
+   padding-right: 10px!important;
+   }
+
+
+
+.nav-link:hover{
+  color: rgb(3, 185, 3) !important;
+  border-radius: 8px !important;
+  float: left;
+background-color: white;
+transition: 0.7s;
+
+
+  
+}
+
+.dropdown-item{
+  color: green !important;
+}
+.dropdown-item:hover{
+  transition: 0.5s;
+  color: orangered !important;
+}
+.dropdown-menu{
+    background-color: rgb(5, 8, 0) !important;
+    border: 3px solid orangered;
+
+  
+  
+}
+
+
+@media screen  and (max-width:800px) 
+{
+  
+  .catering p{
+    color: red !important;
+    font-size: 15px !important;
+  }
+
+  .catering span{
+    font-size: 20px !important;
+  }
+
+  .most-selled{
+    margin-left: 20% !important;
+    margin-top: 2.5%;
+    
+  }
+
+ 
+
+}
+
+body {
+  margin: 0;
+}
+
+
+
+canvas {
+  display: block;
+  /* vertical-align: bottom; */
+}
+
+#particles-js {
+
+  width: 100%!important;
+  height: 100%!important;
+background-image: url("banner1.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-size: cover;
+  
+}
+
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+.most-selled{
+   color: green !important;
+text-align: center;
+border:1px solid grey !important ;
+box-shadow: 1px 10px 10px 1px rgb(238, 238, 238) !important;
+margin: 5% 0% 5% 0%;
+
+
+}
+.most-selled:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+  box-shadow: 5px 2px 5px 2px rgb(75, 75, 75) !important;
+}
+.most-selled p{
+color: black;
+}
+
+#menu-heading{
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Dancing Script', cursive;
+font-size: 50px;
+}
+.badge-secondary{
+  background-color: orangered  !important;
+}
+
+.checked {
+  color: orangered;
+}
+
+
+ .btn-success{
+  background-color: black!important;
+}
+.most-selled .btn-success:hover{
+  background-color:green !important;
+  transition: 0.2s;
+}
+
+.home-menu{
+  width: 100%;
+   margin: 2.5% 0%;
+   margin-right: 2% !important;
+ margin-left: 2% !important;
+}
+.img-thumbnail{
+  border: none!important;
+
+}
+.img-thumbnail:hover{
+  transform: scale(1.1);
+}
+
+#icons{
+  margin:5.5% 0% 2.5% 12%;
+  padding: 0;
+}
+.img-thumbnail{
+  background-color: #F7F6F6 !important;
+}
+.home-menu p{
+  text-align: center !important;
+  /* color: green ; */
+  text-decoration: none;
+  color: black;
+
+}
+.home-menu  p  :hover p{
+text-decoration:none;
+
+}
+
+.flip{
+margin: 5.5%;
+text-align: center;
+font-size: 30px !important;
+
+}
+
+.card-flip > div {
+    backface-visibility: hidden;
+    transition: transform 300ms ;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    margin: 0;    display: flex;
+
+
+  }
+  
+ 
+  .card-front {
+    transform: rotateY(0deg);
+    
+  }
+
+  .card-body img{
+      width: 100%;
+     
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    /* background-color: rgb(255, 68, 0); */
+    background-image: url(offers/bg.jpg);
+    opacity: 0.8;
+  }
+  
+  .card-flip:hover .card-front {
+    transform: rotateY(-180deg);
+  }
+    
+  .card-flip:hover .card-back {
+    transform: rotateY(0deg);
+  }
+
+  .catering{
+    width: 100%;
+    height: 60%;
+    margin :5% 0%;
+
+  }
+  .catering img{
+    width: 100%;
+  }
+  .catering p {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 5.5%;
+  }
+  .catering p:hover{
+   transform: scale(1.1);
+   transition: 1.2s;
+   color: rgb(119, 255, 119) ;
+  }
+
+
+  .menu-banner{
+    width: 100%;
+ 
+  }
+  .menu-banner img{
+    width: 100%;
+    margin-bottom: 2.5%;
+  }
+#price{
+  color: black !important;
+  font-size:20px;
+
+
+
+}
+  .outlets{
+    box-shadow: 0px 2px 1px 1px grey;
+    margin-bottom: 5%;
+  }
+ .outlets p {
+   text-align: center;
+ }
+ .py-5{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(5,41,0,1) 50%);
+ }
+ .justify-content-between{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(5,41,0,1) 50%);
+}
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Quicksand', sans-serif; */
+}
+
+main{
+  width: 100%;
+  background-image: linear-gradient( 115deg, rgba(255, 94, 0, 0.877), rgba(0, 212, 11, 0.7)), url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form{
+  background: linear-gradient( 115deg, rgba(0, 128, 38, 0.8), rgba(255, 116, 24, 0.7)) !important;
+  margin: 0 auto;
+  width: 40%;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(11, 31, 0);
+  flex-direction: column;
+  padding: 50px 0 20px 0;
+}
+#title{
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+#description{
+  font-style: italic;
+  padding: 5px;
+}
+#survey-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(11, 31, 0);
+  margin: 0 auto;
+  width: 50%;
+}
+.uno{
+  padding: 10px;
+}
+#name, #email, #number, #dropdown, #submit{
+  width: 80%;
+  height: 40px;
+  font-size: 1rem;
+  border: 1px dotted black;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+input[type="radio"]{
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.check{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#message{
+  width: 80%;
+  height: 100px;
+  font-size: 1rem;
+  border: transparent;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.submit{
+  margin: 20px;
+}
+
+
+ 
+
+
+
+
+  #feedback-form-wrapper #floating-icon > button {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: rotate(-90deg) translate(50%, -50%);
+    transform-origin: right;
+  }
+  
+  #feedback-form-wrapper .rating-input-wrapper input[type="radio"] {
+    display: none;
+  }
+  #feedback-form-wrapper .rating-input-wrapper input[type="radio"] ~ span {
+    cursor: pointer;
+  }
+  #feedback-form-wrapper .rating-input-wrapper input[type="radio"]:checked ~ span {
+    background-color: #4261dc;
+    color: #fff;
+  }
+  #feedback-form-wrapper .rating-labels > label{
+    font-size: 14px;
+      color: #777;
+  }
+
+  
+
+#form-button{
+
+  border:2px solid black;
+
+  padding:20px 30px !important;
+
+  border-radius:15px 14px;
+
+  width:60%;
+
+margin: 5% 20% !important;
+
+  cursor:pointer;
+
+
+  font-size:25px;
+
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(5,41,0,1) 50%);
+
+  box-shadow: 5px 5px grey;
+  
+  color:white !important ;}
+
+
+
+  .fb{
+    width: 100%;
+float: center;
+  }
+
+  .fb img{
+    width: 100%;
+  }
+
+  .modal-body{
+padding: 0% !important;
+  }
+  .modal-body {
+    color: white !important;
+    text-align: center;
+  }
+
+  
+.flex-column i{
+  margin-bottom: 20px !important;
+
+font-size: 30px !important;
+}
+
+.fa-instagram{background: #FF00A2;
+  background: -webkit-linear-gradient(to right, #FF00A2 50%, #c341ff 53%);
+  background: -moz-linear-gradient(to right, #FF00A2 40%, #d1ff04 53%);
+  background: linear-gradient(to right, #FF00A2 50%, #8808ff 53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

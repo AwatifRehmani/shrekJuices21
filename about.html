@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.png">
+
+  <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&display=swap');
+
+   .banner{
+           background-image: url("banner1.jpg");
+           width:100%;
+           height:650px;
+           background-repeat: no-repeat;
+           background-size: cover;
+       }
+       .active1 a{
+          background-color: white;
+          color:rgb(0, 224, 0)!important;
+          border-radius: 8px !important;
+        }
+   
+        @import url(https://fonts.googleapis.com/css?family=Nunito);
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Nunito;
+}
+
+h1 {
+   font-size: 250%
+}
+
+p {
+  font-size: 140%;
+  line-height: 150%;
+  color: #333;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+  transform-style: inherit;
+}
+
+.menu-banner{
+    width: 100%;
+ 
+  }
+  .menu-banner img{
+    width: 100%;
+    margin-bottom: 2.5%;
+  }
+img {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 320px;
+  height: 240px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+#title {
+  background-image: url("Untitled-1.png");
+  z-index:2;
+}
+
+#title h1 {
+ transform: translateZ(.25px) scale(.75);
+ transform-origin: 50% 100%;
+
+}
+
+#slide1:before {
+  background-image: url("slider4.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide2 {
+  background-image: url("slider3.jpg");
+  z-index:2;
+}
+
+#slide3:before {
+  background-image: url("slider1.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide4 {
+  /* background: #222; */
+  background-image: url("slider5.jpg");
+  
+} 
+
+  </style>
+       <script src="https://kit.fontawesome.com/fe30c5503b.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+ 
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="index.html">SHREK 
+      <span style="font-family:  'Chewy', cursive; color: rgb(0, 224, 0);" > JUICES</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item active1">
+          <a class="nav-link "  href="index.html">HOME</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            MENU
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="fruits.html">FRUITS JUICES</a>
+          <a class="dropdown-item" href="vegetables.html">VEGETABLES JUICES</a>
+          <a class="dropdown-item" href="smoothies.html">SMOOTHIES</a>
+          <a class="dropdown-item" href="protein.html">PROTEIN SHAKES</a>
+          <a class="dropdown-item" href="hotdrinks.html">HOT DRINKS</a>
+          <a class="dropdown-item" href="chocolates.html">CHOCOLATES</a>
+          <a class="dropdown-item" href="mocktails.html">MOCKTAILS</a>
+          </div>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="catering.html">CATERING</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="outlets.html">OUTLETS</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="feedback.html">FEEDBACK</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li> 
+    
+      </ul>
+    </div>  
+  </nav>
+
+ 
+  <div class="menu-banner">
+    <img src="Untitled-1.png" alt="">
+  </div>
+  
+
+  <div id="title" class="slide header">
+    <h1></h1>
+  </div>
+  
+  
+  <div id="slide1" class="slide" >
+    <div class="title col-lg-6 col-sm-6 col-md-12">
+      <h1>JUICING, & SERVING KARACHI FOR THE PAST 21 YEARS AND NOW IN LAHORE !</h1>
+      <p>
+        Our founding team has spent the past half-decade learning all there is from nature and science to ensure that every time you hold a greenO product in your hand you can trust that it’s made of the good stuff. We have also spent that time creating a team of highly skilled professionals to ensure that every inch of our organization reflects our core.  </div>
+  </div>
+  
+  <div id="slide2" class="slide">
+    <div class="title col-lg-6 col-sm-12">
+      <h1>SPREADING HAPPINESS</h1>
+      <p>Learning from our experiences and learning from the all the people greenO interacts with on a daily basis, we realized that commitment to be our best selves is so much more than just being healthy. It goes much deeper; which is why we too have set our sights on a much bigger goal. greenO is now in the business of ‘Spreading Happiness’ and we want to be the first home-grown Pakistani team that does just that. </div>
+    <img src="slider1.jpg" class="col-lg-4 col-sm-4">
+    <img src="Untitled-1.png" class="col-lg-3"> 
+  </div>
+  
+  <div id="slide3" class="slide">
+    <div class="title col-lg-6 col-sm-6 col-md-12">
+      <h1></h1>
+      <p>TAKE A LOOK AT HOW WE’VE BEEN SPREADING HAPPINESS OUTSIDE OUR JUICE BARS</div>
+        
+  </div>
+  
+  <div id="slide4" class="slide header">
+      
+    <h1 id="menu-heading" style="margin-top: -10%;"> Our Services</h1>
+    <div class="row" style="margin: 5% 0% 15% 20%;">
+
+      <div class="col-lg-4 col-md-3 col-sm-3">
+                <img src="deliver.png" alt="">
+      </div>
+
+      <div class="col-lg-4 col-md-3 col-sm-12">
+        <img src="event.jpg" alt="">
+      </div>
+
+
+      <div class="col-lg-4 col-md-3 col-sm-12">
+        <img src="store.jpg" alt="">
+      </div>
+
+
+  </div>
+  <h1 id="menu-heading" > Our Partners</h1>
+
+  <div class="row"  style="margin-left:37%;">
+<div class="col-lg-3 col-md-3 col-sm-12">      <img src="partner1.png" alt="">
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-12">
+      <img src="partner2.png" alt="">
+    </div>
+
+
+    
+
+</div>
+
+  
+</div>
+
+
+<footer  align= "center" class="py-5 " style=" background-color: rgb(3, 8, 0); color: white; padding: 2.5%;">
+  <div class="row"> 
+    
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <h4 style="color:rgb(0, 224, 0) ;">PHONE NO :</h4>
+      <p>(021-111-473-366)</p>
+      <h4 style="color:rgb(0, 224, 0) ;">EMAIL:</h4>
+      <p>(shrekjuices099@gmail.com)</p>
+      <h4 style="color:rgb(0, 224, 0) ;">WEBSITE:</h4>
+      <p>(http://www.shrekjuice.com.pk)</p>
+
+
+    </div>
+
+
+
+    <div class="col-lg-3 col-md-6 col-sm-12 "  >
+      <h5 style="color:rgb(0, 224, 0);  " > QUICK LINKS </h5>
+      <ul class="nav flex-column" id="links"  >
+        <li align="center" class="nav-item mb-2" ><a href="index.html" class="nav-link p-0 ">Home</a></li>
+        <li class="nav-item mb-2"><a href="menu.html" class="nav-link p-0 ">Menu</a></li>
+        <li class="nav-item mb-2"><a href="outlets.html" class="nav-link p-0 ">Outlets</a></li>
+        <li class="nav-item mb-2"><a href="catering.html" class="nav-link p-0">Catering</a></li>
+        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 ">About Us</a></li>
+        <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 ">Contact</a></li>
+        <li class="nav-item mb-2"><a href="privacy.html" class="nav-link p-0 ">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+
+    <!-- <div class="col-lg-3 col-md-6 col-sm-12 ">
+      <form>
+        <h5>Subscribe to become our special customer.</h5>
+        <p>Monthly digest of whats new and exciting from us.</p>
+        <div class="d-flex w-100 gap-2">
+          <label for="newsletter1" class="visually-hidden"></label>
+           <input id="newsletter1" type="text" class="form-control" placeholder="Email address"> 
+          <button class="btn btn-success" type="button">Subscribe</button>
+
+          </div>
+        </form>
+      </div> -->
+ 
+
+
+    
+    <div class="col-lg-3 col-md-6 col-sm-12 " >
+      <h5 style="color:rgb(0, 224, 0);  " >Social Links</h5>
+      <ul class="nav flex-column"   >
+        
+     <a href="https://www.facebook.com/">  <i class="fab fa-facebook" style="color: #3b5998"></i> </a>                  
+     <a href="https://www.instagram.com/">  <i class="fab fa-instagram"></i></a>
+      <a href="https://www.instagram.com/"> <i class="fab fa-twitter" style="color: #00acee;"></i></a>
+      <a href="https://www.youtube.com/"> <i class="fab fa-youtube " style="color: red;"></i></a>
+      </ul>
+    </div>
+  </div>
+
+
+    <div class=" justify-content-between " style="background-color: rgb(3, 8, 0);">
+      <p align="center" style=" font-size: 25px; color: white; margin: 25px;">&copy; 2021 Company, Inc. All rights
+        reserved.</p>
+     
+    </div>
+  </footer>
+  </div>
+
+
+  <script src="style.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+
+</html>
